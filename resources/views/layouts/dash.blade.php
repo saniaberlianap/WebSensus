@@ -22,9 +22,7 @@
 <body class="">
   <div class="wrapper ">
     <div class="sidebar" data-color="white" data-active-color="danger">
-      <!--
-        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
-    -->
+     
       <div class="logo">
         <a class="simple-text logo-mini">
           <div class="logo-image-small">
@@ -33,9 +31,6 @@
         </a>
         <a class="simple-text logo-normal">
           Sensus Anak
-          <!-- <div class="logo-image-big">
-            <img src="../assets/img/logo-big.png">
-          </div> -->
         </a>
       </div>
       <div class="sidebar-wrapper">
@@ -62,11 +57,10 @@
       </div>
     </div>
     <div class="main-panel">
-      
 
-    
 
       @yield('content')
+      
 
   <!--   Core JS Files   -->
   <script src="{{asset('assets2/js/core/jquery.min.js')}}"></script>

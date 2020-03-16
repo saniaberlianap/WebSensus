@@ -10,7 +10,6 @@ class Crud extends Model
     	'nama', 'gender','keluarga_id', 'image'
     ];
 
-
     protected $table = 'sample_data';
 
     public function keluarga(){

@@ -21,7 +21,6 @@
 				<th>Nama Ayah</th>
 				<th>Nama Ibu</th>
 				<th>Alamat</th>
-
 			</tr>
 		</thead>
 		<tbody>
@@ -32,11 +31,9 @@
 				<td>{{$c->ayah}}</td>
 				<td>{{$c->ibu}}</td>
 				<td>{{$c->alamat}}</td>
-
 			</tr>
 			@endforeach
 		</tbody>
 	</table>
- 
 </body>
 </html>

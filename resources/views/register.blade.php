@@ -11,7 +11,6 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="{{asset('assets3/images/img-01.png')}}" alt="IMG">
 				</div>
-
 				<form action="{{ URL::action('UserController@store') }}" method="POST" class="login100-form validate-form">
 				@csrf
 					<span class="login100-form-title">
@@ -62,10 +61,8 @@
 							Register
 						</button>
 					</div>
-
-					</form>
-
 				</form>
+			</form>
 			</div>
 		</div>
 	</div>

@@ -6,12 +6,12 @@
 
  <!-- Hero Area Start -->
  <div id="hero-area" class="hero-area-bg">
-        <div class="container">      
-          <div class="row">
-            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-              <div class="contents">
-                <h2 class="head-title">SENSUS ANAK<br>2 0 2 0</h2>
-                <p>Pastikan Anda turut serta #MencatatIndonesia dalam pelaksanaan Sensus Penduduk Online pada Februari - Maret 2020.</p>
+    <div class="container">      
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+          <div class="contents">
+            <h2 class="head-title">SENSUS ANAK<br>2 0 2 0</h2>
+               <p>Pastikan Anda turut serta #MencatatIndonesia dalam pelaksanaan Sensus Penduduk Online pada Februari - Maret 2020.</p>
                 <div class="header-button">
                   <a href="{{ route('dataanak') }}" class="btn btn-common">Lihat Data</i></a>
                 </div>
@@ -26,7 +26,6 @@
         </div> 
       </div>
       <!-- Hero Area End -->
-
     </header>
     <!-- Header Area wrapper End -->
 
@@ -46,7 +45,7 @@
               </div>
               <div class="services-content">
                 <h3><a href="#">Partisipasi Aktif</a></h3>
-                <p>Dapat dilakukan kapan saja secara mandiri selama periode pelaksanaan Sensus Penduduk Online.</p>
+                  <p>Dapat dilakukan kapan saja secara mandiri selama periode pelaksanaan Sensus Penduduk Online.</p>
               </div>
             </div>
           </div>
@@ -58,7 +57,7 @@
               </div>
               <div class="services-content">
                 <h3><a href="#">Optimalisasi Teknologi Informasi</a></h3>
-                <p>Literasi masyarakat terhadap penggunaan teknologi informasi yang semakin baik. </p>
+                  <p>Literasi masyarakat terhadap penggunaan teknologi informasi yang semakin baik. </p>
               </div>
             </div>
           </div>
@@ -140,19 +139,15 @@
                 </span>
                 <div class="text">
                   <h4>Bentuk pita tali yang tersambung</h4>
-                  <p>menggambarkan bahwa kegiatan sensus penduduk merupakan kegiatan yang berkelanjutan. Pita tali ini juga menggambarkan grafik data dan tanda centang (check list), menunjukkan kegiatan Sensus Penduduk 2020 dilakukan secara profesional dan memastikan semua warga terdaftar Sensus Penduduk 2020.</p>
+                    <p>menggambarkan bahwa kegiatan sensus penduduk merupakan kegiatan yang berkelanjutan. Pita tali ini juga menggambarkan grafik data dan tanda centang (check list), menunjukkan kegiatan Sensus Penduduk 2020 dilakukan secara profesional dan memastikan semua warga terdaftar Sensus Penduduk 2020.</p>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Features Section End -->   
-
-    
-    
 
     <!-- Contact Section Start -->
     <section id="contact" class="section-padding bg-gray">    
@@ -181,17 +176,17 @@
                    <div class="col-md-12">
                     <div class="form-group">
                       <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
+                        <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group"> 
                       <textarea class="form-control" id="message" placeholder="Your Message" rows="7" data-error="Write your message" required></textarea>
-                      <div class="help-block with-errors"></div>
+                        <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-left">
                       <button class="btn btn-common" id="form-submit" type="submit">Send Message</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       <div class="clearfix"></div> 
                     </div>
                   </div>

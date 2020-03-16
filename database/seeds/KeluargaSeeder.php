@@ -13,6 +13,7 @@ class KeluargaSeeder extends Seeder
      */
     public function run()
     {
+        
         // DB::table('keluargas')->insert([
         // 	'ayah' => 'Syamsul Arif',
         // 	'ibu' => 'Henni Setiyawati',

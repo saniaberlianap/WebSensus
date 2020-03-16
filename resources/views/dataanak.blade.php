@@ -1,6 +1,6 @@
 @extends('layouts.parent')
 
-@section('title', 'Sensus (Admin)')
+@section('title', 'Data Anak')
 
 @section('main')
 
@@ -38,13 +38,10 @@
 			<button type="submit" class="btn btn-border video-popup">Search</button>
 		</div>
 	</form>
-
-	
         <div class="row">
         @foreach($data as $row)
           <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            
+            <!-- Team Item Starts -->   
             <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
               <div class="team-img">
                 <img class="img-fluid" src="{{ URL::to('/') }}/images/{{ $row->image }}" alt="">
@@ -62,15 +59,12 @@
                 </ul>
               </div>
             </div>
-           
             <!-- Team Item Ends -->
           </div>
           @endforeach
-          </div>
-          </div>
+        </div>
+      </div>
           
-
-
           <!-- Testimonial Section Start -->
     <section id="testimonial" class="testimonial section-padding">
       <div class="container">
@@ -82,25 +76,21 @@
               <div class="item">
                 <div class="testimonial-item">
                   <div class="info">
-                    <h2><a href="#">ID Keluarga : {{ $row->id}}</a></h2>
-                   
-                  </div>
-                  <div class="content">
-                    <p class="description">
-                      Ayah : {{ $row->ayah }}
-                    </p>
-                    <p class="description">
-                      Ibu : {{ $row->ibu }}
-                    </p>
-                    <p class="description">
-                      Alamat : {{ $row->alamat }}
-                    </p>
+                    <h2><a href="#">ID Keluarga : {{ $row->id}}</a></h2>   </div>
+                    <div class="content">
+                        <p class="description">
+                          Ayah : {{ $row->ayah }}
+                        </p>
+                        <p class="description">
+                          Ibu : {{ $row->ibu }}
+                        </p>
+                        <p class="description">
+                          Alamat : {{ $row->alamat }}
+                        </p>
                   </div>
                 </div>
               </div>
               @endforeach
-
-            
             </div>
           </div>
         </div>

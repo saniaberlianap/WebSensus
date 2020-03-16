@@ -4,28 +4,26 @@
 
 @section('content')
 
-
-
 <div class="container">
   <div class="content">
-  <div align="right">
-    <a href="{{ route('crud.index') }}" class="btn btn-primary">Back</a>
-</div>
+    <div align="right">
+      <a href="{{ route('crud.index') }}" class="btn btn-primary">Back</a>
+    </div>
   <p>
-        <div class="row">
-          <div class="col-md-8">
+    <div class="row">
+        <div class="col-md-8">
             <div class="card card-user">
-              <div class="image">
-                <img src="{{asset('assets2/img/damir-bosnjak.jpg')}}" alt="...">
-              </div>
-              <div class="card-body">
-                <div class="author">
-                  <a href="#">
-                    <img class="avatar border-gray" src="{{ URL::to('/') }}/images/{{ $data->image }}" alt="...">
-                    <h5 class="title">{{ $data->nama }}</h5>
-                  </a>
+                <div class="image">
+                  <img src="{{asset('assets2/img/damir-bosnjak.jpg')}}" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <div class="author">
+                      <a href="#">
+                        <img class="avatar border-gray" src="{{ URL::to('/') }}/images/{{ $data->image }}" alt="...">
+                          <h5 class="title">{{ $data->nama }}</h5>
+                      </a>
                   <p class="description">
-          {{ $data->gender }}
+                    {{ $data->gender }}
                   </p>
                 </div>
               </div>
@@ -55,8 +53,6 @@
                 </div>
               </div>
             </div>
-            
-          
       </div>
 </div>
 

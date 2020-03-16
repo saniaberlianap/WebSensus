@@ -13,7 +13,6 @@
 	<center>
 		<h5>Data Anak</h4>
 	</center>
- 
 	<table class='table table-bordered'>
 		<thead>
 			<tr>
@@ -37,6 +36,5 @@
 			@endforeach
 		</tbody>
 	</table>
- 
 </body>
 </html>

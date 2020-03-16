@@ -11,15 +11,23 @@
 |
 */
 
+// route halaman awal (landingpage)
 Route::get('/', function () {
     return view('awal');
 });
 
+
+// route resource controller
 Route::resource('crud', 'CrudsController');
 
 Route::resource('keluarga', 'KeluargaController');
 
 
+// Route halaman next ke lihat data untuk user
+Route::get('/dataanak', 'DataController@index')->name('dataanak');
+
+
+// Route apabila admin sudah login (belum logout), admin tidak bisa mengakses halaman login dan register
 
 Route::group(['middleware' => ['logged']], function(){
 
@@ -33,13 +41,12 @@ Route::group(['middleware' => ['logged']], function(){
 
 });
 
-Route::get('/dataanak', 'DataController@index')->name('dataanak');
 
-
+// route untuk admin yang belum login, dimana admin tidak bisa akses
 
 Route::group(['middleware' => ['admin']], function(){
-    Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 
+    Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 
 
     Route::get('/crud', 'CrudsController@index')->name('crud.index');
